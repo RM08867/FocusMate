@@ -1,41 +1,98 @@
-# FocusMate 🧠
+## README.md
 
-**A dyslexia-friendly reading assistant** that helps users customize their reading experience with adjustable fonts, spacing, colors, and letter highlighting.
+# FocusMate
 
-Built for a hackathon to empower people with dyslexia to read more comfortably.
+**Dyslexia-Friendly Reading Assistant**
+
+FocusMate is a specialized reading tool designed to empower individuals with dyslexia by enhancing visual clarity through customizable text rendering. By providing anchors for the eyes and reducing visual stress, it helps users read with greater focus and less fatigue.
+
+---
+
+## 🚀 Tech Stack
+
+* 
+**Frontend:** React.js / Next.js (Tailwind CSS) 
+
+
+* 
+**State Management:** React Context API / Hooks 
+
+
+* 
+**Deployment:** Vercel 
+
+
+
+---
 
 ## ✨ Features
 
-- **Font Customization** — Choose from 10 dyslexia-friendly fonts (including OpenDyslexic & Lexend)
-- **Spacing Controls** — Adjustable font size, line spacing, letter spacing, and word spacing
-- **Background & Text Colors** — Soft, warm color palettes designed for comfortable reading
-- **Bold Starts** — Bolds the first half of each word to help anchor the eye
-- **Vowel Coloring** — Highlights vowels to aid letter recognition
-- **Confusing Letter Highlighting** — Color-codes easily confused letter pairs (b/d, p/q, m/n, etc.)
-- **Live Preview** — All settings update in real-time
+* 
+**Vowel Coloring:** Highlights vowels to help distinguish word structures.
 
-## 🛠 Tech Stack
 
-- **React** + **Vite**
-- **Tailwind CSS v4**
-- **localStorage** for preference persistence
+* 
+**Bold Starts:** Bolds the beginning of words to act as "anchors" for eye tracking.
 
-## 🚀 Getting Started
+
+* 
+**Letter Pair Highlighting:** Specifically targets commonly confused letters like b/d, p/q, and m/n.
+
+
+* 
+**Customizable Typography:** Adjustable font sizing, line spacing, and specialized fonts like OpenDyslexic.
+
+
+* 
+**Color Overlays:** Change page background and text colors to reduce "visual snow" and glare.
+
+
+
+---
+
+## 📸 Screenshots
+
+### 1. Font and Spacing Controls
+
+Adjust font families, size, letter gaps, and word spacing for a personalized reading experience.
+link: settings.png
+
+
+### 2. Visual Overlays
+
+Select from various background themes like Cream, Yellow, or Peach to improve readability.
+link: colors.png
+
+
+### 3. Dyslexia-Specific Highlights
+
+Toggle specific letter-pair highlights to prevent letter flipping and confusion.
+link: highlights.png
+
+---
+
+## 🎥 Demo Video
+
+Watch the assistant in action here: https://drive.google.com/file/d/1hVymnEfqBAHgw7KGFhrqPQfT4GNXIRFW/view?usp=sharing 
+
+---
+
+## 🛠️ Installation & Setup
+
+**Installation Commands:**
 
 ```bash
-# Install dependencies
 npm install
+[cite_start]``` [cite: 14]
 
-# Start development server
+**Run Commands:**
+```bash
 npm run dev
+[cite_start]``` [cite: 15]
 
-# Build for production
-npm run build
-```
+---
 
-## 📁 Project Structure
-
-```
+## 🏗️ Architecture
 ├── public/
 │   └── dpref.json        # Default configuration & letter groups
 ├── source/               # Original source files
@@ -46,8 +103,20 @@ npm run build
 ├── index.html
 ├── vite.config.js
 └── package.json
+
+---
+
+## 👥 Team Members
+* Pavithra L Kumar
+* Rose Maria Benny
+
+---
+
+## 📄 License
+[cite_start]This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details[cite: 21].
+
+---
+
+[cite_start]**Would you like me to generate a `LICENSE` file or a `.gitignore` to complete your project root requirements?** [cite: 5, 7]
+
 ```
-
-## 📝 License
-
-MIT
