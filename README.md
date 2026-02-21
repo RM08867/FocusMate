@@ -53,21 +53,22 @@ FocusMate is a specialized reading tool designed to empower individuals with dys
 ## 📸 Screenshots
 
 ### 1. Font and Spacing Controls
+<img width="1027" height="992" alt="Screenshot 2026-02-21 082918" src="https://github.com/user-attachments/assets/296596da-c23d-4420-883b-c573364d0c77" />
 
 Adjust font families, size, letter gaps, and word spacing for a personalized reading experience.
-link: settings.png
 
 
 ### 2. Visual Overlays
+<img width="1078" height="1020" alt="Screenshot 2026-02-21 082943" src="https://github.com/user-attachments/assets/9550ecfd-41d8-472a-8b43-f51de463831a" />
 
 Select from various background themes like Cream, Yellow, or Peach to improve readability.
-link: colors.png
 
 
 ### 3. Dyslexia-Specific Highlights
+<img width="1107" height="1024" alt="Screenshot 2026-02-21 083003" src="https://github.com/user-attachments/assets/b0bfe38a-13ed-4938-b74c-93c63992f767" />
 
 Toggle specific letter-pair highlights to prevent letter flipping and confusion.
-link: highlights.png
+
 
 ---
 
