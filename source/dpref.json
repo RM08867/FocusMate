@@ -1,0 +1,115 @@
+{
+  
+  "font": [
+    "Arial",
+    "Verdana",
+    "Tahoma",
+    "Century Gothic",
+    "Trebuchet MS",
+    "Calibri",
+    "Open Sans",
+    "Comic Sans MS",
+    "OpenDyslexic",
+    "Lexend"
+  ],
+
+  "font_size": {
+    "min": 12,
+    "recommended": 16,
+    "max": 26
+  },
+
+  "letter_spacing": {
+    "min":0.05,
+    "recommended":0.15,
+    "max":0
+  },
+
+  "word_spacing": {
+    "min":0.1,
+    "recommended":0.25,
+    "max":0.35
+  },
+
+  "line_spacing": {
+    "min": 1.4,
+    "recommended": 1.5,
+    "max": 2.0
+  },
+
+  "text_alignment": ["left"],
+
+  "background_color": [
+    "soft-cream",
+    "off-white",
+    "pastel-yellow",
+    "light-blue",
+    "light-peach"
+  ],
+
+  "foreground_color": [
+    "black",
+    "dark-blue",
+    "dark-brown"
+  ],
+
+  "allow_custom_colors": true,
+
+  "letter_highlighting": {
+    "enabled": true,
+    "modes":[
+        "vowels_coloring",
+        "first letter bold",
+        "confusing_letter_groups"
+    ],
+    
+    "default_highlight_colors": {
+      "vowels": "soft-blue",
+      "mirror_letters1": "muted-green",
+      "mirror_letters2": "warm-brown",
+      "similar_shapes1": "soft-purple",
+      "similar_shapes2": "soft-blue",
+      "similar_shapes3": "muted-green",
+      "thin_vertical1": "warm-brown",
+      "thin_vertical2": "soft-purple",
+      "tail_letters": "soft-blue",
+      "similar_numbers": "muted-green"
+    }
+  },
+
+  "confusing_letter_groups": {
+    "mirror_letters1": ["b", "d"],
+    "mirror_letters2": ["p", "q"],
+    "similar_shapes1": ["m", "n"],
+    "similar_shapes2": ["o", "u"],
+    "similar_shapes3": ["c", "e"],
+    "thin_vertical1": ["i", "j"],
+    "thin_vertical2": ["l", "t"],
+    "tail_letters": ["g", "y"],
+    "similar_numbers": ["6", "9"]
+  },
+
+  "user_preferences": {
+    "font": "Open Sans",
+    "font_size": 16,
+    "line_spacing": 1.5,
+    "letter_spacing":0.15,
+    "word_spacing":0.25,
+    "background_color": "soft-cream",
+    "text_color": "black",
+    "highlight_mode": "confusing_letter_groups",
+
+    "custom_colors": {
+      "vowels": null,
+      "mirror_letters1": null,
+      "mirror_letters2": null,
+      "similar_shapes1": null,
+      "similar_shapes2": null,
+      "similar_shapes3": null,
+      "thin_vertical1": null,
+      "thin_vertical2": null,
+      "tail_letters": null,
+      "similar_numbers": null
+    }
+  }
+}
